@@ -230,18 +230,14 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
+
+@S_e_c_u_r_i_t_y [Manager]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+seyed morteza
 
 Our channels
-@teleseedch [English]
+@BotNews[English-Persian]
 ]],
     help_text = [[
 Commands list :
@@ -357,7 +353,7 @@ will return group ban list
 end
 
 function on_our_id (id)
-  our_id = id
+  our_id = 131218437
 end
 
 function on_user_update (user, what)
