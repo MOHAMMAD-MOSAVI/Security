@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {160957134,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -353,7 +353,7 @@ will return group ban list
 end
 
 function on_our_id (id)
-  our_id = 131218437
+  our_id = 0
 end
 
 function on_user_update (user, what)
