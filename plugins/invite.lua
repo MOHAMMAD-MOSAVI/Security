@@ -28,7 +28,7 @@ function run(msg, matches)
   --end
 	local cbres_extra = {chatid = msg.to.id}
   local username = matches[1]
-  local username = username:gsub("@","")
+  local username = username:gsub("@S_e_c_u_r_i_t_y","")
   res_user(username,  callbackres, cbres_extra)
 end
 return {
