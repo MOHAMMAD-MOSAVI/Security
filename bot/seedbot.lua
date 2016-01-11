@@ -224,10 +224,10 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[Security v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+
 
 Admins
 
@@ -241,108 +241,212 @@ Our channels
     help_text = [[
 Commands list :
 
+لیست دستورات:
+
 !kick [username|id]
+
 You can also do it by reply
 
+شما می توانید با ریپلای و یا آیدی کیک کنید
+-------------------------------------
 !ban [ username|id]
+
 You can also do it by reply
 
+شما می توانید با ریپلای و یا آیدی بان کنید
+-------------------------------------
 !unban [id]
+
 You can also do it by reply
 
+شما می توانید با ریپلای و یا آیدی از بان خارج کنید
+-------------------------------------
 !who
+
 Members list
 
+لیست اعضا
+-------------------------------------
 !modlist
+
 Moderators list
 
+لیست مدیران گروه
+-------------------------------------
 !promote [username]
+
 Promote someone
 
+مدیر کردن شخص
+-------------------------------------
 !demote [username]
+
 Demote someone
 
+خارج کردن از مدیریت شخص
+-------------------------------------
 !kickme
+
 Will kick user
 
+خروج از گروه
+-------------------------------------
 !about
+
 Group description
 
+اطلاعات گروه
+-------------------------------------
 !setphoto
+
 Set and locks group photo
 
+تنظیم و قفل عکس گروه
+-------------------------------------
 !setname [name]
+
 Set group name
 
+تنظیم نام گروه
+-------------------------------------
 !rules
+
 Group rules
 
+قوانین گروه
+-------------------------------------
 !id
+
 return group id or user id
 
+آیدی گروه یا آیدی کاربر
+-------------------------------------
 !help
 
+راهنمایی
+-------------------------------------
 !lock [member|name|bots]
+
 Locks [member|name|bots] 
 
+ [قفل کردن [عضو|نام|ربات 
+-------------------------------------
 !unlock [member|name|photo|bots]
+
 Unlocks [member|name|photo|bots]
 
+ [آزاد سازی کردن [عضو|نام|عکس|ربات
+-------------------------------------
 !set rules <text>
+
 Set <text> as rules
 
+تعیین قوانین گروه
+-------------------------------------
 !set about <text>
+
 Set <text> as about
 
+تعیین اطلاعات گروه
+-------------------------------------
 !settings
+
 Returns group settings
 
+نمایش سطح امنیت و تنظیمات گروه
+-------------------------------------
 !newlink
+
 create/revoke your group link
 
+ساخت لینک جدید و باطل شدن لینک قبلی
+-------------------------------------
 !link
+
 returns group link
 
+نمایش لینک فعلی
+-------------------------------------
 !owner
+
 returns group owner id
 
+شناسه یا ایدی مالک گروه
+-------------------------------------
 !setowner [id]
+
 Will set id as owner
 
+تنظیم مالکیت فرد به گروه
+-------------------------------------
 !setflood [value]
+
 Set [value] as flood sensitivity
 
+تنظیم حساسیت ضد اسپم
+-------------------------------------
 !stats
+
 Simple message statistics
 
+آمار پیام ها
+-------------------------------------
 !save [value] <text>
+
 Save <text> as [value]
 
+ [ذخیره <متن> به عنوان [ارزش
+-------------------------------------
 !get [value]
+
 Returns text of [value]
 
+ [بازده متن [ارزش
+-------------------------------------
 !clean [modlist|rules|about]
+
 Will clear [modlist|rules|about] and set it to nil
 
+ [حذف [مدیران|قوانین|اطلاعات
+-------------------------------------
 !res [username]
+
 returns user id
+
+اطلاعات آیدی موردنظر
+
 "!res @username"
-
+-------------------------------------
 !log
-will return group logs
 
+<will return group logs>
+-------------------------------------
 !banlist
+
 will return group ban list
+
+لیست افراد بان شده
+-------------------------------------
 
 **U can use both "/" and "!" 
 
 
+ ! / شما می توانید از این علامت ها استفاده کنید
+-------------------------------------
 *Only owner and mods can add bots in group
 
-
+فقط مالکان و مدهای گروه اجازه اضافه کردن ربات به گروه را دارند
+-------------------------------------
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
+فقط مدیران  اجازه استفاده از دستورات را دارند
+-------------------------------------
 *Only owner can use res,setowner,promote,demote and log commands
+
+فقط مدیران اصلی اجازه برکناری مدیران فرعی را دارند
+-------------------------------------
+
+Admins:@S_e_c_u_r_i_t_y
 
 ]]
 
