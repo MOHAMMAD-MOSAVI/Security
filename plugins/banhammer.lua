@@ -100,10 +100,10 @@ local function username_id(cb_extra, success, result)
         if is_momod2(member_id, chat_id) then
           return send_large_msg(receiver, "you can't ban mods/owner/admins")
         end
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] banned')
+        send_large_msg(receiver, 'This User @'..member..' ['..member_id..'] banned')
         return ban_user(member_id, chat_id)
       elseif get_cmd == 'unban' then
-        send_large_msg(receiver, 'User @'..member..' ['..member_id..'] unbanned')
+        send_large_msg(receiver, 'This User @'..member..' ['..member_id..'] unbanned')
         local hash =  'banned:'..chat_id
         redis:srem(hash, member_id)
         return 'User '..user_id..' unbanned'
